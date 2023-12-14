@@ -49,8 +49,7 @@ public class MenuController {
     private int pulseValue;
 
     public void initialize() {
-        // You can add any initialization code here if needed
-        startTimers();  // Start the timers when the controller is initialized
+        startTimers();
     }
 
     public void switchToScene3(ActionEvent event) throws IOException {

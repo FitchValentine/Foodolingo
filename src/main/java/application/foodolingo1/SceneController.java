@@ -25,7 +25,7 @@ public class SceneController {
     private Parent root;
 
     public void switchToScene3(ActionEvent event) throws IOException {
-        // Здесь вы можете установить продолжительность анимации (в миллисекундах)
+        //Продолжительность анимации (в миллисекундах)
         int animationDuration = 1000;
 
         // Создаем анимацию затухания

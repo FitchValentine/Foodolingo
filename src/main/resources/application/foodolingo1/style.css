@@ -1,0 +1,10 @@
+.backgroundColor{
+    -fx-background-color: linear-gradient(#61D8DE, #9AF064);
+}
+.authcard{
+    -fx-background-radius: 30;
+}
+
+.authcard1{
+    -fx-background-radius: 50;
+}
