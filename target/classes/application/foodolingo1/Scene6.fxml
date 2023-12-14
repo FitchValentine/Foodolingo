@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" styleClass="backgroundColor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.foodolingo1.OpenCaseController">
+    <children>
+        <AnchorPane layoutX="14.0" layoutY="93.0" prefHeight="298.0" prefWidth="190.0" style="-fx-background-color: #fafafa;" styleClass="authcard">
+            <children>
+                <AnchorPane layoutX="3.0" layoutY="14.0" prefHeight="62.0" prefWidth="184.0" style="-fx-background-color: #9AF064;" styleClass="authcard">
+                    <children>
+                        <AnchorPane layoutX="9.0" layoutY="6.0" prefHeight="50.0" prefWidth="166.0" style="-fx-background-color: #01FFC1;" styleClass="authcard">
+                            <children>
+                                <AnchorPane layoutX="14.0" layoutY="6.0" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: #01FFFF;" styleClass="authcard">
+                                    <children>
+                                        <Button layoutX="7.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchToScene3" style="-fx-background-color: #01FFFF;" text="Расчет калорий" textFill="WHITE">
+                                            <font>
+                                                <Font name="Lobster Regular" size="15.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="3.0" layoutY="84.0" prefHeight="62.0" prefWidth="184.0" style="-fx-background-color: #9AF064;" styleClass="authcard">
+                    <children>
+                        <AnchorPane layoutX="9.0" layoutY="6.0" prefHeight="50.0" prefWidth="166.0" style="-fx-background-color: #01FFC1;" styleClass="authcard">
+                            <children>
+                                <AnchorPane layoutX="14.0" layoutY="6.0" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: #01FFFF;" styleClass="authcard">
+                                    <children>
+                                        <Button layoutX="7.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchToScene4" style="-fx-background-color: #01FFFF;" text="Меню на сегодня" textFill="WHITE">
+                                            <font>
+                                                <Font name="Lobster Regular" size="15.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="3.0" layoutY="154.0" prefHeight="62.0" prefWidth="184.0" style="-fx-background-color: #9AF064;" styleClass="authcard">
+                    <children>
+                        <AnchorPane layoutX="9.0" layoutY="6.0" prefHeight="50.0" prefWidth="166.0" style="-fx-background-color: #01FFC1;" styleClass="authcard">
+                            <children>
+                                <AnchorPane layoutX="14.0" layoutY="6.0" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: #01FFFF;" styleClass="authcard">
+                                    <children>
+                                        <Button layoutX="22.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchToScene5" style="-fx-background-color: #01FFFF;" text="Сезонность" textFill="WHITE">
+                                            <font>
+                                                <Font name="Lobster Regular" size="15.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="3.0" layoutY="225.0" prefHeight="62.0" prefWidth="184.0" style="-fx-background-color: #9AF064;" styleClass="authcard">
+                    <children>
+                        <AnchorPane layoutX="9.0" layoutY="6.0" prefHeight="50.0" prefWidth="166.0" style="-fx-background-color: #01FFC1;" styleClass="authcard">
+                            <children>
+                                <AnchorPane layoutX="14.0" layoutY="6.0" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: #01FFFF;" styleClass="authcard">
+                                    <children>
+                                        <Button layoutX="29.0" layoutY="5.0" mnemonicParsing="false" style="-fx-background-color: #01FFFF;" text="Читмил">
+                                            <font>
+                                                <Font name="Lobster Regular" size="15.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+            </children></AnchorPane>
+        <ImageView fitHeight="98.0" fitWidth="89.0" layoutX="461.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Meshes/dh.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="251.0" layoutY="12.0" prefHeight="68.0" prefWidth="197.0" text="Foodolingo">
+            <font>
+                <Font name="Lobster Regular" size="45.0" />
+            </font>
+        </Label>
+        <Label layoutX="264.0" layoutY="67.0" prefHeight="26.0" prefWidth="172.0" text="Eat better live better!">
+            <font>
+                <Font name="MV Boli" size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="loginSignUpButton" layoutX="352.0" layoutY="292.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="218.0" style="-fx-background-color: #F39C63;" text="Зарегистрироваться" textFill="#efefef">
+            <font>
+                <Font name="Lobster Regular" size="20.0" />
+            </font>
+        </Button>
+        <AnchorPane layoutX="218.0" layoutY="93.0" prefHeight="298.0" prefWidth="472.0" style="-fx-background-color: #fafafa;" styleClass="authcard">
+         <children>
+            <ImageView fx:id="caseImageView" fitHeight="148.0" fitWidth="166.0" layoutX="160.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutX="369.0" layoutY="254.0" mnemonicParsing="false" onAction="#openCase" style="-fx-background-color: #F39C63;" styleClass="authcard1" text="Читмил!" textFill="WHITE">
+               <font>
+                  <Font name="Lobster Regular" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="298.0" fitWidth="298.0" layoutX="88.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@maximum.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="171.0" fitWidth="190.0" layoutX="27.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Meshes/24629211.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="resultLabel" layoutX="59.0" layoutY="168.0" prefHeight="86.0" prefWidth="108.0" text="Сегодня можно!" textAlignment="CENTER">
+               <font>
+                  <Font name="Lobster Regular" size="14.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="15.0" prefHeight="68.0" prefWidth="190.0" style="-fx-background-color: #fafafa;" styleClass="authcard">
+         <children>
+            <AnchorPane layoutX="123.0" layoutY="3.0" prefHeight="62.0" prefWidth="66.0" style="-fx-background-color: #9AF064;" styleClass="authcard1">
+               <children>
+                  <AnchorPane layoutX="5.0" layoutY="6.0" prefHeight="50.0" prefWidth="55.0" style="-fx-background-color: #01FFC1;" styleClass="authcard1">
+                     <children>
+                        <AnchorPane layoutX="6.0" layoutY="6.0" prefHeight="38.0" prefWidth="42.0" style="-fx-background-color: #01FFFF;" styleClass="authcard1" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <Label fx:id="timeLabel" layoutX="16.0" layoutY="2.0" prefHeight="18.0" prefWidth="102.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Lobster Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="pulseLabel" layoutX="30.0" layoutY="46.0" prefHeight="12.0" prefWidth="55.0">
+               <font>
+                  <Font name="Lobster Regular" size="11.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="78.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ezgif-2-ac55686f71%20(1).gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
